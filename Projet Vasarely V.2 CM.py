@@ -26,6 +26,7 @@ def deformation(p, centre, rayon):
           centre : coordonnées (X0, Y0, Z0) du centre de la sphère
           rayon : rayon de la sphère
         Sorties : coordonnées (xprim, yprim, zprim) du point du dallage à tracer APRÈS déformation
+        Fonction fournit par l'équipe pédagogique ULB.
      """
     x, y, z = p
     xprim, yprim, zprim = x, y, z
